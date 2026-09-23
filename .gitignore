@@ -31,3 +31,5 @@ debug/
 
 internal/
 uv.lock
+config.bat
+node_modules

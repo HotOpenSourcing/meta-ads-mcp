@@ -4,9 +4,14 @@ Meta Ads MCP - Python Package
 This package provides a Meta Ads MCP integration
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 from meta_ads_mcp.core.server import main
 
-__version__ = "1.0.127"
+__version__ = "1.0.128"
 
 __all__ = [
     'get_ad_accounts',
